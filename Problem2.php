@@ -8,7 +8,7 @@ $highestFibNumber = 4000000;
 
 echo $twoAgo . " " . $oneAgo;
 do {
-    // print the actual Fibonacci sequence
+    // print the remainder of the Fibonacci sequence
     $next = $twoAgo + $oneAgo;
     $twoAgo = $oneAgo;
     $oneAgo = $next;
